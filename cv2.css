@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(216, 137, 231, 0.47);
+}
+img{
+    border-radius: 40px;
+}
+.boody{
+    display: flex;
+    height: 100vh;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(240, 248, 255);
+}
+.gauche,.droite{
+    flex: 1;
+    padding: auto;
+}
+.gauche{
+    background-color: antiquewhite;
+    text-align:center;
+}
+.droit{
+    background-color: aquamarine;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+}
+.titre{
+    text-align:left;
+    transform: translate(10%);
+    
+}
+.ligne{
+    text-decoration: underline;
+  
+}
+.fa-solid{
+    font-size:11px ;
+    transform: translate(10%);
+}
+.icon{
+    font-size: 80%;
+}
+.paragraphe{
+
+margin-left: -11px;
+}

@@ -1,0 +1,101 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f3eb;
+}
+
+/* Haut de la page */
+.haut {
+    background-color: #e8d5b7;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.image-ronde {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #8b6f47;
+}
+
+/* Contenu du haut */
+.contenu-haut {
+    max-width: 60%;
+    text-align: justify;
+}
+
+/* Section du bas */
+.bas {
+    display: flex;
+}
+
+/* Colonne gauche (informations personnelles) */
+.gauche {
+    width: 30%;
+    background-color: #c4a883;
+    padding: 20px;
+}
+
+.gauche p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.gauche a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.gauche ul {
+    padding-left: 20px;
+}
+
+/* Trait vertical */
+.vertical-line {
+    width: 2px;
+    background-color: black;
+    height: auto;
+}
+
+/* Colonne droite */
+.droite {
+    flex: 1;
+    padding: 20px;
+    background-color: #eee0c9;
+}
+
+.droite h2 {
+    color: #8b6f47;
+}
+.droite h5{
+    font-weight: bold;
+}
+.f1{
+display: flex;
+justify-content: space-between;
+width: 60%;
+}
+.f2{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    }
+.f3{
+        display: flex;
+        justify-content: space-between;
+        width:60%;
+        }
+
